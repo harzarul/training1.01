@@ -1,0 +1,11 @@
+export {default as Navbar} from './Navbar';
+export {default as Hero} from './Hero';
+export {default as Features} from './Features';
+export {default as AboutUs} from './AboutUs';
+export {default as Category} from './Category';
+export {default as Discover} from './Discover';
+export {default as Author} from './Author';
+export {default as FeaturedIn} from './FeaturedIn';
+export {default as Testimonials} from './Testimonials';
+export {default as CTA} from './CTA';
+export {default as Footer} from './Footer';
