@@ -43,12 +43,14 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === nav.id ? "text-yellow" : "text-secondary"
-                } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
-                onClick={() => setActive(nav.title)}
-              >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                className={`font-poppins font-medium cursor-pointer text-[16px] 
+                ${active === nav.id ? "text-yellow" : "text-secondary"} ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
+                onClick={() => (
+                  setToggle(!toggle),
+                  setActive(nav.id))}>
+                <a href={`#${nav.id}`}>
+                  {nav.title}
+                </a>
               </li>
             ))}
           </ul>

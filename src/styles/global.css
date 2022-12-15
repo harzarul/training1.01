@@ -21,26 +21,26 @@ ul {
     list-style: none;
 }
 
-.hero_background{
-    background-image: url();
+.hero__background{
+    background-image: url(../assets/Hero.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.discover__background{
+    background-image: url(../assets/discover.png);
     background-size: cover;
     background-position: center;
 }
 
-.discover_background{
-    background-image: url();
-    background-size: cover;
-    background-position: center;
-}
-
-.footer_background{
+.footer__background{
     background-image: url();
     background-size: cover;
     background-position: center;
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
     background-position: center;
 }

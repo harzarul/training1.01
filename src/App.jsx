@@ -5,7 +5,7 @@ import { Navbar, Hero, Features, AboutUs, Category, Discover, Author, FeaturedIn
 
 const App = () => {
   return (
-    <div className='bg-secondary w-full overflow-hidden'>
+    <div className='bg-white w-full overflow-hidden'>
       <div className={`${styles.paddingsX} ${styles.flexCenter} bg-black`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar/>
@@ -13,7 +13,7 @@ const App = () => {
       </div>
 
       <div className={`${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+        <div className='w-full'>
           <Hero/>
         </div>
       </div>
