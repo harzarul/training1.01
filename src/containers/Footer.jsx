@@ -10,7 +10,7 @@ const Footer = () => {
       id='contactus'>
       <div className={`${styles.boxWidth}`}>
         <Navbar/>
-        <div className="bg-gray py-[8rem] px-[3rem] flex md:flex-row flex-col justify-between items-center">
+        <div className="bg-gray py-[8rem] px-[3rem] flex md:flex-row flex-col justify-between items-center z-0">
           <div className="mx-[3rem]">
             <h1 className="sm:text-[36px] text-[27px] text-white font-semibold capitalize">
               Subscribe to our news letter to get latest updates and news

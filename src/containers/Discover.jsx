@@ -17,7 +17,7 @@ const Discover = () => {
           <h1 className="sm:text-[30px] text-[25px] text-primary font-bold capitalize">
             It started out as a simple idea and evolved into our passion
           </h1>
-          <p className="sm:text-[16px] text-[14px] text-primary max-w-[551px]">
+          <p className="sm:text-[16px] text-[12px] text-primary max-w-[551px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt minima possimus, voluptatum saepe non doloremque explicabo delectus fugit dicta exercitationem, modi adipisci architecto perferendis.
           </p>
           <div className="sm:my-[2rem] my-1 w-full">

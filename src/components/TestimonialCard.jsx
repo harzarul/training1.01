@@ -1,17 +1,20 @@
 
 import { useState } from 'react';
 import {BsArrowRightShort, BsArrowLeftShort} from 'react-icons/bs';
+import { testimonials } from "../constants";
 
 const TestimonialCard = ({text, img, name, location, i}) => {
     const [currentIndex, setCurrentIndex] = useState(2);
+    const lenght = testimonials.length - 1;
 
-    const prevData = () =>{
-        setCurrentIndex(1)
-    }
-    const nextData = () =>{
-        setCurrentIndex(2)
-    }
- 
+    const prevData = () => {
+        setCurrentIndex(currentIndex === 0 ? lenght : currentIndex - 1);
+    };
+    const nextData = () => {
+        setCurrentIndex(currentIndex === lenght ? 0 : currentIndex + 1)
+    };
+
+    console.log(currentIndex);
     console.log(i);
 
 
@@ -39,9 +42,9 @@ const TestimonialCard = ({text, img, name, location, i}) => {
             </div>
 
             <div className='flex flex-row justify-around items-center my-[1rem]'>
-                <BsArrowLeftShort className='w-[48px] h-[48px] sm:mx-[1rem] mx:-2 hover:bg-primary'
+                <BsArrowLeftShort className='w-[48px] h-[48px] sm:mx-[1rem] mr-[2rem] hover:bg-yellow rounded-full'
                     onClick={prevData}/>
-                <BsArrowRightShort className='w-[48px] h-[48px] sm:mx-[1rem] mx:-2'
+                <BsArrowRightShort className='w-[48px] h-[48px] sm:mx-[1rem] ml-[2rem] hover:bg-yellow rounded-full'
                     onClick={nextData}/>
             </div>
         </div>
