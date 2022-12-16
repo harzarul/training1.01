@@ -11,6 +11,9 @@ module.exports = {
         yellow: "rgba(255, 208, 80, 1)",
         white : "rgba(255, 255, 255, 0.8)",
         purple : "rgba(89, 46, 169, 1)",
+        red: "rgba(255, 0, 0, 0.1)",
+        blue: "rgba(35, 37, 54, 1)",
+        gray: "rgba(76, 76, 76, 1)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

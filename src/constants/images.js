@@ -15,6 +15,7 @@ import FIn2 from '../assets/featuredIn2.png';
 import FIn3 from '../assets/featuredIn3.png';
 import FIn4 from '../assets/featuredIn4.png';
 import FIn5 from '../assets/featuredIn5.png';
+import FIn6 from '../assets/featuredIn6.png';
 
 export {
     Logo,
@@ -33,4 +34,5 @@ export {
     FIn3,
     FIn4,
     FIn5,
+    FIn6
 }

@@ -28,6 +28,11 @@ const App = () => {
           <FeaturedIn/>
           <Testimonials/>
           <CTA/>
+        </div>
+      </div>
+
+      <div className={`${styles.flexCenter}`}>
+        <div className='w-full'>
           <Footer/>
         </div>
       </div>
